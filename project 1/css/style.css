@@ -42,25 +42,37 @@ p {
 #tribute-info h2 {
   text-align: center;
 }
-#tribute-info ul{
+#tribute-info ul {
   width: 700px;
   margin: 0 auto;
 }
-#footer{
+#footer {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 900px;
   margin: 0 auto;
   font-size: 20px;
 }
-@media screen and (max-width:600px) {
-  #main{
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+  #main {
     width: 350px;
   }
-  #img-div #image{
+  #img-div #image {
     width: 300px;
   }
-  #img-div #img-caption{
+  #img-div #img-caption {
     font-size: 14px;
+  }
+  #tribute-info {
+    width: 350px;
+  }
+  #tributr-info ul {
+    width: 325px;
+  }
+  #tribute-info li {
+    width: 300px;
   }
 }
