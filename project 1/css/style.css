@@ -35,3 +35,10 @@ p {
 #img-caption {
   padding-bottom: 20px;
 }
+#tribute-info li {
+  width: 500px;
+  margin-bottom: 10px;
+}
+#tribute-info h2 {
+  text-align: center;
+}
